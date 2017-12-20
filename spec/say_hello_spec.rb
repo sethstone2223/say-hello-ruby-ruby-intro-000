@@ -12,5 +12,6 @@ describe "say_hello" do
     say_hello()
   end
 end
-def say_hello(name = rubyprogrammer)
+def say_hello(name = "rubyprogrammer")
+  puts "name"
 end
